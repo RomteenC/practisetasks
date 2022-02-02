@@ -1,0 +1,29 @@
+Задание 1
+
+for(let i = 2; i < 11; i++) {
+    if (i % 2 == 0) console.log(i);
+}
+
+Задание 2
+
+let i = 0;
+while (i < 3) {
+    console.log(`number ${i}!`);
+    i++;
+}
+
+Задание 3
+
+var moreHundred = parseInt(prompt('Введите число больше 100'));
+while (moreHundred < 100) {
+    moreHundred = parseInt(prompt('Введите число больше 100'));
+}
+console.log(moreHundred);
+
+Задание 4
+
+let styles = ['Джаз', 'Блюз'];
+styles.push('Рок-н-ролл');
+styles[Math.floor((styles.length - 1) / 2)] = 'Классика';
+console.log(styles.shift());
+styles.unshift('Рэп', 'Регги');
