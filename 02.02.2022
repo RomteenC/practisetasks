@@ -1,10 +1,12 @@
-Задание 1
+                                Задание 1
+
 
 for(let i = 2; i < 11; i++) {
     if (i % 2 == 0) console.log(i);
 }
 
-Задание 2
+                                Задание 2
+
 
 let i = 0;
 while (i < 3) {
@@ -12,7 +14,9 @@ while (i < 3) {
     i++;
 }
 
-Задание 3
+
+                                Задание 3
+
 
 var moreHundred = parseInt(prompt('Введите число больше 100'));
 while (moreHundred < 100) {
@@ -20,7 +24,9 @@ while (moreHundred < 100) {
 }
 console.log(moreHundred);
 
-Задание 4
+
+                                Задание 4
+
 
 let styles = ['Джаз', 'Блюз'];
 styles.push('Рок-н-ролл');
