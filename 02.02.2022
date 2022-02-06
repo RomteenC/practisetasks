@@ -18,10 +18,8 @@ while (i < 3) {
                                 Задание 3
 
 
-var moreHundred = parseInt(prompt('Введите число больше 100'));
-while (moreHundred < 100) {
-    moreHundred = parseInt(prompt('Введите число больше 100'));
-}
+var moreHundred = 0;
+while (moreHundred <= 101) moreHundred = parseInt(prompt('Введите число больше 100'));
 console.log(moreHundred);
 
 
